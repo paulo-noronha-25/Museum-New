@@ -20,6 +20,8 @@ class SignUpViewController: UIViewController {
 
     @IBAction func clickSign(_ sender: UIButton) {
         
+        SessionData.shared.correo = emailTextField.text
+        
         guard let email = emailTextField.text else { return }
         guard let password = passwordTextField.text else { return }
         

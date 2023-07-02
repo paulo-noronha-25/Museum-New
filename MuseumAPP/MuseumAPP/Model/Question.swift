@@ -8,23 +8,20 @@ struct Response: Codable {
 }
 
 struct Question: Codable {
-    let dificulty: String?
-    let image: String?
+    let museum: String?
     let questionText: String?
     let choiceA: String?
     let choiceB: String?
     let choiceC: String?
     let choiceD: String?
-    let answer: Int?
+
     
-    init(dificulty: String?,image: String?, questionText: String?, choiceA: String?, choiceB: String?, choiceC: String?, choiceD: String?, answer: Int?){
-        self.dificulty = dificulty
-        self.image = image
+    init(museum: String?, questionText: String?, choiceA: String?, choiceB: String?, choiceC: String?, choiceD: String?){
+        self.museum = museum
         self.questionText = questionText
         self.choiceA = choiceA
         self.choiceB = choiceB
         self.choiceC = choiceC
         self.choiceD = choiceD
-        self.answer = answer
     }
 }

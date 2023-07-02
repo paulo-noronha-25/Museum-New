@@ -18,6 +18,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginClick(_ sender: UIButton) {
         
+        SessionData.shared.correo = emaiTextField.text
+        
         guard let email = emaiTextField.text else { return }
         guard let password = passwordTextField.text else { return }
         

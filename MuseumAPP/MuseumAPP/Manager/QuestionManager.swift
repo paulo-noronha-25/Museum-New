@@ -11,34 +11,7 @@ final class QuestionManager {
   var questions: [Question] = []
     
   private let domainUrlString = "https://979u1pil6h.execute-api.us-east-1.amazonaws.com/Developer/"
-    
-  /*  func getQuestions(){
-        let url = URL(string: domainUrlString + "museum/")!
-        
-        let task = URLSession.shared.dataTask(with: url, completionHandler:{ data, response, error in
-            guard let data = data, error == nil else {
-                print("something went wrong")
-                return
-            }
-            
-            var result: QuestionSummary?
-            do {
-                result = try JSONDecoder().decode(QuestionSummary.self, from: data)
-            }
-            catch{}
-            print("failed to convert \(error?.localizedDescription)")
-            
-            guard let json = result else {
-                return
-            }
-            
-            print(json.status)
-            print(json.results ?? "")
-        })
-        task.resume()
- }*/
- 
-  
+      
   func fetchFilms(completionHandler: @escaping ([Question]?) -> Void) {
     let url = URL(string: domainUrlString + "museum")!
 
@@ -70,4 +43,7 @@ final class QuestionManager {
     })
     task.resume()
   }
+    
+    
+    
 }

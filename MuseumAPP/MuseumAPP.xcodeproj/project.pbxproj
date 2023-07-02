@@ -9,6 +9,16 @@
 /* Begin PBXBuildFile section */
 		25149FFE2918E4B0008E237E /* SelectLevelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25149FFD2918E4B0008E237E /* SelectLevelViewController.swift */; };
 		2514A0002918E78D008E237E /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25149FFF2918E78D008E237E /* QuestionManager.swift */; };
+		252F338F2A3B943600136B81 /* SesionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252F338E2A3B943600136B81 /* SesionData.swift */; };
+		25545A9129E8BF4A00148AE2 /* QuestionToFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25545A9029E8BF4A00148AE2 /* QuestionToFilter.swift */; };
+		25545A9329E8CEC200148AE2 /* RecomendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25545A9229E8CEC200148AE2 /* RecomendationViewController.swift */; };
+		2557A6242A296C29001563FE /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A6232A296C29001563FE /* MapViewController.swift */; };
+		2557A6262A296FAF001563FE /* HelpChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A6252A296FAE001563FE /* HelpChatViewController.swift */; };
+		2557A6282A297170001563FE /* ReservationRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A6272A297170001563FE /* ReservationRequestViewController.swift */; };
+		2557A62A2A2973A5001563FE /* MuseumPhoneListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A6292A2973A5001563FE /* MuseumPhoneListViewController.swift */; };
+		2557A62C2A29765C001563FE /* MuseumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2557A62B2A29765C001563FE /* MuseumListViewController.swift */; };
+		256F60DE2A50B7740070EBF0 /* PostRecomendationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 256F60DD2A50B7740070EBF0 /* PostRecomendationViewController.swift */; };
+		2583C0092A3A4EAE00436521 /* SendInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2583C0082A3A4EAE00436521 /* SendInfoViewController.swift */; };
 		25A0037A293EBD13006FC94E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A00379293EBD13006FC94E /* LoginViewController.swift */; };
 		25A0037C293EBD9D006FC94E /* SelectLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0037B293EBD9D006FC94E /* SelectLoginViewController.swift */; };
 		25A0037E293EBDC0006FC94E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A0037D293EBDC0006FC94E /* SignUpViewController.swift */; };
@@ -29,6 +39,16 @@
 /* Begin PBXFileReference section */
 		25149FFD2918E4B0008E237E /* SelectLevelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLevelViewController.swift; sourceTree = "<group>"; };
 		25149FFF2918E78D008E237E /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		252F338E2A3B943600136B81 /* SesionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SesionData.swift; sourceTree = "<group>"; };
+		25545A9029E8BF4A00148AE2 /* QuestionToFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionToFilter.swift; sourceTree = "<group>"; };
+		25545A9229E8CEC200148AE2 /* RecomendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecomendationViewController.swift; sourceTree = "<group>"; };
+		2557A6232A296C29001563FE /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		2557A6252A296FAE001563FE /* HelpChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpChatViewController.swift; sourceTree = "<group>"; };
+		2557A6272A297170001563FE /* ReservationRequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationRequestViewController.swift; sourceTree = "<group>"; };
+		2557A6292A2973A5001563FE /* MuseumPhoneListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumPhoneListViewController.swift; sourceTree = "<group>"; };
+		2557A62B2A29765C001563FE /* MuseumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseumListViewController.swift; sourceTree = "<group>"; };
+		256F60DD2A50B7740070EBF0 /* PostRecomendationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostRecomendationViewController.swift; sourceTree = "<group>"; };
+		2583C0082A3A4EAE00436521 /* SendInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendInfoViewController.swift; sourceTree = "<group>"; };
 		25A00379293EBD13006FC94E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		25A0037B293EBD9D006FC94E /* SelectLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectLoginViewController.swift; sourceTree = "<group>"; };
 		25A0037D293EBDC0006FC94E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -107,8 +127,16 @@
 				25ABC0142907563B0035AF28 /* ViewController.swift */,
 				25149FFD2918E4B0008E237E /* SelectLevelViewController.swift */,
 				25A00379293EBD13006FC94E /* LoginViewController.swift */,
-				25A0037B293EBD9D006FC94E /* SelectLoginViewController.swift */,
 				25A0037D293EBDC0006FC94E /* SignUpViewController.swift */,
+				25A0037B293EBD9D006FC94E /* SelectLoginViewController.swift */,
+				25545A9229E8CEC200148AE2 /* RecomendationViewController.swift */,
+				2557A6232A296C29001563FE /* MapViewController.swift */,
+				2557A6252A296FAE001563FE /* HelpChatViewController.swift */,
+				2557A6272A297170001563FE /* ReservationRequestViewController.swift */,
+				2557A6292A2973A5001563FE /* MuseumPhoneListViewController.swift */,
+				2557A62B2A29765C001563FE /* MuseumListViewController.swift */,
+				2583C0082A3A4EAE00436521 /* SendInfoViewController.swift */,
+				256F60DD2A50B7740070EBF0 /* PostRecomendationViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -126,6 +154,8 @@
 			children = (
 				25ABC0102907560A0035AF28 /* Question.swift */,
 				25ABC0112907560A0035AF28 /* QuestionBank.swift */,
+				25545A9029E8BF4A00148AE2 /* QuestionToFilter.swift */,
+				252F338E2A3B943600136B81 /* SesionData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +223,7 @@
 			mainGroup = 25ABBFED290755360035AF28;
 			packageReferences = (
 				25A00381293EC5A3006FC94E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				258A33C32A2033C6009DEDFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
 			);
 			productRefGroup = 25ABBFF7290755360035AF28 /* Products */;
 			projectDirPath = "";
@@ -225,15 +256,25 @@
 			files = (
 				25A0037E293EBDC0006FC94E /* SignUpViewController.swift in Sources */,
 				25A0037C293EBD9D006FC94E /* SelectLoginViewController.swift in Sources */,
+				252F338F2A3B943600136B81 /* SesionData.swift in Sources */,
 				25A0037A293EBD13006FC94E /* LoginViewController.swift in Sources */,
 				25ABC0152907563B0035AF28 /* ViewController.swift in Sources */,
+				25545A9329E8CEC200148AE2 /* RecomendationViewController.swift in Sources */,
 				2514A0002918E78D008E237E /* QuestionManager.swift in Sources */,
+				2557A6262A296FAF001563FE /* HelpChatViewController.swift in Sources */,
 				25ABC0122907560A0035AF28 /* Question.swift in Sources */,
+				2557A62C2A29765C001563FE /* MuseumListViewController.swift in Sources */,
+				2557A62A2A2973A5001563FE /* MuseumPhoneListViewController.swift in Sources */,
+				2583C0092A3A4EAE00436521 /* SendInfoViewController.swift in Sources */,
 				25149FFE2918E4B0008E237E /* SelectLevelViewController.swift in Sources */,
 				25ABC01C290757020035AF28 /* ProgressHUD.m in Sources */,
 				25ABBFFA290755360035AF28 /* AppDelegate.swift in Sources */,
+				2557A6282A297170001563FE /* ReservationRequestViewController.swift in Sources */,
 				25ABC0132907560A0035AF28 /* QuestionBank.swift in Sources */,
+				256F60DE2A50B7740070EBF0 /* PostRecomendationViewController.swift in Sources */,
+				25545A9129E8BF4A00148AE2 /* QuestionToFilter.swift in Sources */,
 				25ABC03E290765FF0035AF28 /* SceneDelegate.swift in Sources */,
+				2557A6242A296C29001563FE /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -383,7 +424,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D25SU8224T;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MuseumAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -414,7 +455,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D25SU8224T;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MuseumAPP/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -460,6 +501,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		258A33C32A2033C6009DEDFC /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		25A00381293EC5A3006FC94E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
